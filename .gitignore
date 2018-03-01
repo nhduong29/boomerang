@@ -1,0 +1,15 @@
+node_modules
+test/fixtures/*.pem
+npm-debug.log
+build/classes
+build/resources
+build/tmp
+/fileContent/
+out
+sandbox/\.gradle/3\.5/fileContent/
+
+sandbox/\.gradle/3\.5/taskHistory/
+
+sandbox/\.settings/
+
+sandbox/libs/jliquid/\.settings/

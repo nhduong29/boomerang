@@ -1,6 +1,6 @@
 # Boomerang
 
-```sandbox-tail``` is a Node.js application for streaming logs to the browser. It's a `tail -F` with UI. It's cloned from [https://github.com/mthenw/frontail](https://github.com/mthenw/frontail). Modify to parse the log from sandbox runtime project [https://github.com/getsandbox/sandbox](https://github.com/getsandbox/sandbox)
+```boomerang``` is a Node.js application for streaming logs to the browser. It's a `tail -F` with UI. It's cloned from [https://github.com/mthenw/frontail](https://github.com/mthenw/frontail). Modify to parse the log from sandbox runtime project [https://github.com/getsandbox/sandbox](https://github.com/getsandbox/sandbox)
 
 ## Dependencies
 - ```NodeJs```  important! you actually might not have this.

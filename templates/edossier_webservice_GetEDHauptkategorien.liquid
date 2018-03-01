@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.elca.ch/edossier/webservice" xmlns:get="http://www.elca.ch/edossier/webservice/getedhauptkategorien" xmlns:dat="http://www.elca.ch/edossier/webservice/datatypes">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:getEDHauptkategorienResponse>
+         <!--Optional:-->
+         <getEDHauptkategorien>
+            <!--Zero or more repetitions:-->
+            <get:ED_Hauptkategorie>?</get:ED_Hauptkategorie>
+            <!--Optional:-->
+            <get:sessionID>
+               <dat:SessionToken>?</dat:SessionToken>
+               <dat:WIN_username>?</dat:WIN_username>
+            </get:sessionID>
+         </getEDHauptkategorien>
+      </web:getEDHauptkategorienResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

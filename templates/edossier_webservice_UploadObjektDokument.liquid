@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.elca.ch/edossier/webservice" xmlns:upl="http://www.elca.ch/edossier/webservice/uploadobjektdokument" xmlns:dat="http://www.elca.ch/edossier/webservice/datatypes">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:uploadObjektDokumentResponse>
+         <!--Optional:-->
+         <uploadObjektReturnMessage>
+            <!--Optional:-->
+            <upl:sessionID>
+               <dat:SessionToken>?</dat:SessionToken>
+               <dat:WIN_username>?</dat:WIN_username>
+            </upl:sessionID>
+         </uploadObjektReturnMessage>
+      </web:uploadObjektDokumentResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

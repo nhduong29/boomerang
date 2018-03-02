@@ -1,11 +1,12 @@
 {
-  "name": "sandbox-tail",
-  "version": "4.1.1",
-  "description": "streaming logs to the browser",
-  "homepage": "https://github.com/nhduong29/boomerang",
-  "author": "Duong Nguyen <nhduong29@gmail.com>",
-  "license": "MIT",
-  "bin": "./bin/boomerang",
+  "name": "boomerang-sandbox",
+  "version": "1.0.5",
+  "description": "streaming logs from getsandbox service to the browser",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": "./bin/boomerang-sandbox",
   "dependencies": {
     "CBuffer": "0.1.4",
     "byline": "^5.0.0",
@@ -16,21 +17,28 @@
     "socket.io": "^1.7.0",
     "untildify": "^3.0.2"
   },
-  "devDependencies": {
-    "eslint": "^3.6.0",
-    "eslint-config-airbnb-base": "^8.0.0",
-    "eslint-plugin-import": "^1.16.0",
-    "jsdom": "^9.12.0",
-    "mocha": "~2.3.2",
-    "should": "~3.3.2",
-    "sinon": "~1.7.3",
-    "supertest": "~0.8.1",
-    "temp": "~0.8.1"
-  },
+  "devDependencies": {},
   "scripts": {
     "lint": "eslint .",
     "test": "mocha -r should --reporter spec test/*.js",
     "pkg": "pkg --out-path=dist ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhduong29/boomerang.git"
+  },
+  "keywords": [
+    "tail",
+    "syslog",
+    "realtime",
+    "log",
+    "boomerang",
+    "boomerang-sandbox"
+  ],
+  "author": "Duong Nguyen <nhduong29@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhduong29/boomerang/issues"
   },
   "pkg": {
     "assets": [
@@ -44,17 +52,6 @@
       "node8-win-x64"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nhduong29/boomerang.git"
-  },
-  "keywords": [
-    "tail",
-    "syslog",
-    "realtime",
-    "log",
-    "devops"
-  ],
-  "main": "index",
+  "homepage": "https://github.com/nhduong29/boomerang#readme",
   "preferGlobal": true
 }

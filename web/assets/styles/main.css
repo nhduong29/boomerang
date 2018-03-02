@@ -141,7 +141,7 @@ pre {
   padding: 0;
 }
 .navbar-inverse {
-    background-color: #2196f3;
+    background-color: #1857bf;
     border-color: transparent;
 }
 
@@ -150,7 +150,7 @@ pre {
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
-    background-color: #0c7cd5;
+    background-color: #00399e;
     color: #ffffff;
 }
 

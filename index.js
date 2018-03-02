@@ -155,7 +155,7 @@ if (program.daemonize) {
   process.on('SIGTERM', cleanExit);
 
   /*run the sandbox service*/
-  var exec = require('child_process').exec;
+  /*var exec = require('child_process').exec;
   exec('java -jar sandbox-lib/sandbox-1.0-all.jar --port=9003 run',
     function (error, stdout, stderr){
       console.log('stdout: ' + stdout);
@@ -163,5 +163,5 @@ if (program.daemonize) {
       if(error !== null){
         console.log('exec error: ' + error);
       }
-  });
+  });*/
 }

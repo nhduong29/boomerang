@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.elca.ch/edossier/webservice" xmlns:get="http://www.elca.ch/edossier/webservice/getbelegarten" xmlns:dat="http://www.elca.ch/edossier/webservice/datatypes">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:getBelegartenResponse>
+         <!--Optional:-->
+         <getBelegartenReturnMessage>
+            <!--Zero or more repetitions:-->
+            <get:belegarten>
+               <get:belegartWert>?</get:belegartWert>
+               <get:belegartBezeichnung>?</get:belegartBezeichnung>
+               <get:belegartKategorie>?</get:belegartKategorie>
+            </get:belegarten>
+            <!--Optional:-->
+            <get:sessionID>
+               <dat:SessionToken>?</dat:SessionToken>
+               <dat:WIN_username>?</dat:WIN_username>
+            </get:sessionID>
+         </getBelegartenReturnMessage>
+      </web:getBelegartenResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

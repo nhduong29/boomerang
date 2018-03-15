@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.elca.ch/edossier/webservice" xmlns:get="http://www.elca.ch/edossier/webservice/getobjektarten" xmlns:dat="http://www.elca.ch/edossier/webservice/datatypes">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:getObjektartenResponse>
+         <!--Optional:-->
+         <getObjektartenReturnMessage>
+            <!--Zero or more repetitions:-->
+            <get:objektarten>
+               <get:objektartWert>?</get:objektartWert>
+               <get:belegartBezeichnung>?</get:belegartBezeichnung>
+               <get:objektartBezeichnung>?</get:objektartBezeichnung>
+            </get:objektarten>
+            <!--Optional:-->
+            <get:sessionID>
+               <dat:SessionToken>?</dat:SessionToken>
+               <dat:WIN_username>?</dat:WIN_username>
+            </get:sessionID>
+         </getObjektartenReturnMessage>
+      </web:getObjektartenResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,6 +1,10 @@
-# Boomerang
+# sandbox-tail – Streaming logs of sandbox API to the browser
 
-```boomerang``` is a Node.js application for streaming logs to the browser. It's a `tail -F` with UI. It's cloned from [https://github.com/mthenw/frontail](https://github.com/mthenw/frontail). Modify to parse the log from sandbox runtime project [https://github.com/getsandbox/sandbox](https://github.com/getsandbox/sandbox)
+```sandbox-tail``` is a Node.js application for streaming logs to the browser. It's a `tail -F` with UI. It's cloned from [https://github.com/mthenw/frontail](https://github.com/mthenw/frontail). Modify to parse the log from sandbox runtime project [https://github.com/getsandbox/sandbox](https://github.com/getsandbox/sandbox)
+
+## Options
+- `-s` or `--sandbox` is the place of sandbox service
+- `-x` or `--sandbox-port` is the port of sandbox service
 
 ## Dependencies
 - ```NodeJs```  important! you actually might not have this.
@@ -8,7 +12,7 @@
 
 ## Usage
 - `npm install`
-- `node index.js --port 9004 log/debug.log`
+- `node index.js --port=9004 log/debug.log -s 'sandbox-lib' -x 9003`
 - Web interface runs on [http://localhost:9004](http://127.0.0.1:9004)
 
 License

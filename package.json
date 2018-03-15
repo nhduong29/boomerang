@@ -1,12 +1,10 @@
 {
-  "name": "boomerang-sandbox",
-  "version": "1.0.5",
-  "description": "streaming logs from getsandbox service to the browser",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "bin": "./bin/boomerang-sandbox",
+  "name": "boomerang",
+  "version": "1.0.0",
+  "description": "streaming logs to the browser",
+  "homepage": "https://github.com/nhduong29/boomerang",
+  "author": "Duong Nguyen <nhduong29@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "CBuffer": "0.1.4",
     "byline": "^5.0.0",
@@ -15,13 +13,20 @@
     "cookie": "0.1.0",
     "daemon-fix41": "1.1.2",
     "socket.io": "^1.7.0",
-    "untildify": "^3.0.2"
+    "untildify": "^3.0.2",
+    "node-dir": "0.1.17",
+    "directory-tree": "2.0.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "lint": "eslint .",
-    "test": "mocha -r should --reporter spec test/*.js",
-    "pkg": "pkg --out-path=dist ."
+  "devDependencies": {
+    "eslint": "^3.6.0",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "jsdom": "^9.12.0",
+    "mocha": "~2.3.2",
+    "should": "~3.3.2",
+    "sinon": "~1.7.3",
+    "supertest": "~0.8.1",
+    "temp": "~0.8.1"
   },
   "repository": {
     "type": "git",
@@ -32,26 +37,23 @@
     "syslog",
     "realtime",
     "log",
-    "boomerang",
-    "boomerang-sandbox"
+    "api",
+    "nhduong",
+    "sandbox"
   ],
-  "author": "Duong Nguyen <nhduong29@gmail.com>",
-  "license": "MIT",
+  "main": "index",
+  "preferGlobal": true,
   "bugs": {
     "url": "https://github.com/nhduong29/boomerang/issues"
   },
-  "pkg": {
-    "assets": [
-      "preset/*.json",
-      "web/**/*"
-    ],
-    "targets": [
-      "node8-alpine-x64",
-      "node8-linux-x64",
-      "node8-macos-x64",
-      "node8-win-x64"
-    ]
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   },
-  "homepage": "https://github.com/nhduong29/boomerang#readme",
-  "preferGlobal": true
+  "scripts": {
+    "start": "node index.js --port=9004 log/debug.log -s sandbox-lib -x 9003"
+  },
+  "engines": {
+    "node": "8.9.4"
+  }
 }

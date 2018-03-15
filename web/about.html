@@ -24,7 +24,8 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
+            <li><a href="/api">API Documentation</a></li>
+            <li><a href="/about" class="active">About</a></li>
             <li><a href="/contact">Contact</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">References <span class="caret"></span></a>
@@ -49,18 +50,90 @@
           </ul>
         </div>
         <div class="nav-footer text-center">
-          <a class="fab fa-github" title="See me in Bibucket" target="_blank" href="https://bitbucket.org/aavn_nhduong/boomerang"></a>
+          <a class="fa fa-github" title="See me in Bibucket" target="_blank" href="https://bitbucket.org/aavn_nhduong/boomerang"></a>
         </div>
       </div>
     </nav>
 
 
-    <div class="container">about</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="logo text-center">
+            <img src="boomerang.svg" alt="Boomerang" />
+          </div>
+        </div>
+        <div class="col-md-12 text-center heading">
+          <h3>Boomerang</h3>
+          <h4>Boomerang is the service to build modern software for the API-first world.</h4>
+          <p><a class="btn btn-default" target="_blank" href="https://bitbucket.org/aavn_nhduong/boomerang">
+                <i class="fa fa-github"></i> Clone me now!
+          </a></p>
+        </div>
+      </div>
+      <div class="row service">
+        <div class="col-md-6">
+          <div class="service-box text-center">
+            <div class="sandbox-service">
+              <img src="../img/sandbox.png" />
+            </div>
+            <p>Sandbox is a platform to quickly and easily create or generate web service mocks, with instant deploy, collaborative build</p>
+            <p>
+              <a class="btn btn-default" target="_blank" href="https://github.com/getsandbox/sandbox">
+                <i class="fa fa-github"></i> More details
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-box text-center">
+            <div class="frontail-service">
+              <img src="../img/tail.png" />
+            </div>
+            <p>Frontail is a height-weight Node.js application for streaming logs to the browser in the real-time. It's a tail -F with UI</p>
+            <p>
+              <a class="btn btn-default" target="_blank" href="https://github.com/mthenw/frontail">
+                <i class="fa fa-github"></i> More details
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Options</h4>
+        </div>
+        <div class="col-md-12">
+          <ul>
+            <li><span class="key">-h</span>, <span class="key">--help</span> output usage information</li>
+            <li><span class="key">-p</span>, <span class="key">--port</span> listening port, default 9004</li>
+            <li><span class="key">-s</span> or <span class="key">--sandbox</span> is the place of sandbox service, default sandbox-lib</li>
+            <li><span class="key">-b</span> or <span class="key">--base</span> is the place of sandbox API Documentation, default services</li>
+            <li><span class="key">-x</span> or <span class="key">--sandbox-port</span> is the port of sandbox service, default 9003</li>
+          </ul>
+        </div>
+        <div class="col-md-12">
+          <h4>Usage</h4>
+        </div>
+        <div class="col-md-12">
+          <ul>
+            <li><span class="key">npm install</span></li>
+            <li><span class="key">node index.js --port=9004 log/debug.log -s sandbox-lib -x 9003</span></li>
+            <li>Sandbox URL <span class="key">http://localhost:9003</span></li>
+            <li>Web interface runs on <span class="key">http://localhost:9004</span></li>
+          </ul>
+        </div>
+        <div class="col-md-12">
+          <h4>License</h4>
+        </div>
+        <div class="col-md-12">
+          <p>MIT</p>
+        </div>
+      </div>
+    </div>
     <script src="/jquery.min.js"></script>
     <script src="/bootstrap.min.js"></script>
     <script src="/renderjson.js"></script>
-    <script type="text/javascript">
-        
-    </script>
+    <script src="/script.js"></script>
 </body>
 </html>

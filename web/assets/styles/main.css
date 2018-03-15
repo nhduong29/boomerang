@@ -132,7 +132,7 @@ body{
 .renderjson .disclosure { color: #f92672;font-size: 110%; }
 .renderjson .syntax, .renderjson .string { color: #e6db74; }
 .renderjson .number, .renderjson .boolean { color: #66d9ef; }
-.renderjson .key    { color: #a6e22e; }
+.renderjson .key    { color: #a6e22e; background: transparent; }
 .renderjson .keyword { color: #66d9ef; }
 .renderjson .object.syntax, .renderjson .array.syntax { color: white; }
 pre {
@@ -149,7 +149,7 @@ pre {
     color: #b2dbfb;
 }
 
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+.navbar-inverse .navbar-nav>li>a.active, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
     background-color: #00399e;
     color: #ffffff;
 }

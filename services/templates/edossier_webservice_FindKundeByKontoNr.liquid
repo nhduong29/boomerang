@@ -1,0 +1,25 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.elca.ch/edossier/webservice" xmlns:fin="http://www.elca.ch/edossier/webservice/findkundebykontonr" xmlns:fin1="http://www.elca.ch/edossier/webservice/findkunden" xmlns:dat="http://www.elca.ch/edossier/webservice/datatypes">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:findKundeByKontoNrResponse>
+         <!--Optional:-->
+         <findKundeByKontoNrReturnMessage>
+            <!--Optional:-->
+            <fin:kunde>
+               <fin1:FIN_Kunden_nr>?</fin1:FIN_Kunden_nr>
+               <!--Optional:-->
+               <fin1:name>?</fin1:name>
+               <!--Optional:-->
+               <fin1:FIN_Ort>?</fin1:FIN_Ort>
+               <!--Optional:-->
+               <fin1:FIN_Sitz>?</fin1:FIN_Sitz>
+            </fin:kunde>
+            <!--Optional:-->
+            <fin:sessionID>
+               <dat:SessionToken>?</dat:SessionToken>
+               <dat:WIN_username>?</dat:WIN_username>
+            </fin:sessionID>
+         </findKundeByKontoNrReturnMessage>
+      </web:findKundeByKontoNrResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

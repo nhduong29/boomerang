@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.elca.ch/edossier/webservice" xmlns:get="http://www.elca.ch/edossier/webservice/getuserbanks">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:getUserBanksResponse>
+         <!--Optional:-->
+         <getUserBanksReturnMessage>
+            <!--Zero or more repetitions:-->
+            <get:userbank>
+               <get:FIN_userbk_nr>?</get:FIN_userbk_nr>
+               <get:FIN_userbk_bezeichnung>?</get:FIN_userbk_bezeichnung>
+            </get:userbank>
+         </getUserBanksReturnMessage>
+      </web:getUserBanksResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

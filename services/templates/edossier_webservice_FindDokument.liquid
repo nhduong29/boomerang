@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.elca.ch/edossier/webservice" xmlns:fin="http://www.elca.ch/edossier/webservice/finddokument" xmlns:dok="http://www.elca.ch/edossier/webservice/dokumentdatatypes" xmlns:dat="http://www.elca.ch/edossier/webservice/datatypes">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:findDokumentResponse>
+         <!--Optional:-->
+         <findDokumentReturnMessage>
+            <fin:dokumentfound>?</fin:dokumentfound>
+            <!--Optional:-->
+            <fin:dokumentInfo>
+               <dok:FIN_userbk_nr>?</dok:FIN_userbk_nr>
+               <!--Optional:-->
+               <dok:FIN_Belegart>?</dok:FIN_Belegart>
+               <!--Optional:-->
+               <dok:FIN_Obj_art>?</dok:FIN_Obj_art>
+               <!--Optional:-->
+               <dok:dossierName>?</dok:dossierName>
+               <dok:status>?</dok:status>
+            </fin:dokumentInfo>
+            <!--Optional:-->
+            <fin:sessionID>
+               <dat:SessionToken>?</dat:SessionToken>
+               <dat:WIN_username>?</dat:WIN_username>
+            </fin:sessionID>
+         </findDokumentReturnMessage>
+      </web:findDokumentResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

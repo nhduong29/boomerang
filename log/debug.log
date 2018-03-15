@@ -1,104 +1,263 @@
-Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9000, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail' with 8 -> 200 worker(s)
+Invalid base path
+Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail\services' with 8 -> 200 worker(s)
+Engine: 562048952 - Exception handling routing table request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/api.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Error processing request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/api.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Engine: 739059164 - Exception handling routing table request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/api.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Error processing request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/api.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Engine: 424952673 - Exception handling routing table request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/edossier_webservice.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Error processing request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/edossier_webservice.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Engine: 950780243 - Exception handling routing table request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/edossier_webservice.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Error processing request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/edossier_webservice.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Engine: 2119303134 - Exception handling routing table request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/edossier_webservice.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Error processing request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/edossier_webservice.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Engine: 1415067114 - Exception handling routing table request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/edossier_webservice.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Error processing request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/edossier_webservice.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Engine: 41505827 - Exception handling routing table request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/edossier_webservice.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Error processing request
+com.sandbox.runtime.models.ServiceScriptException: Cannot find module: ./services/routes/edossier_webservice.js in <sandbox-internal> at line number 231 at column number 6
+	at com.sandbox.runtime.js.services.Service.loadService(Service.java:204)
+	at com.sandbox.runtime.js.services.Service.initialize(Service.java:101)
+	at com.sandbox.runtime.js.services.Service.handleRoutingTableRequest(Service.java:150)
+	at com.sandbox.runtime.HttpRequestHandler.getOrCreateRoutingTable(HttpRequestHandler.java:267)
+	at com.sandbox.runtime.HttpRequestHandler.handle(HttpRequestHandler.java:172)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+**domID886c0162-692d-4e31-9a5d-eb8c955951d5log Error processing request for GET /favicon.ico - Invalid route
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+**domID3f30a53e-e472-4710-9374-a7aeb80756b0log Error processing request for GET / - Invalid route
+**domIDd1576ebd-f2af-4539-8e45-ada8f4cd560blog Error processing request for GET /favicon.ico - Invalid route
 
-domIDed29acee-db69-411c-9063-60f10716f650log HTTP PUT /api/v6/banks/1/clients/31960/accounts/84685 
-domIDed29acee-db69-411c-9063-60f10716f650log Request Headers: {Accept=*/*, Accept-Encoding=gzip, deflate, br, Accept-Language=en,de;q=0.9,en-US;q=0.8,vi;q=0.7, Cache-Control=no-cache, Connection=keep-alive, Content-Length=250, Content-Type=multipart/form-data; boundary=----WebKitFormBoundaryLOYc0TXdWrxBksWr, Host=localhost:9000, Origin=chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop, Postman-Token=b544480c-09e8-c1ae-49b6-677cead10512, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36}
- domIDed29acee-db69-411c-9063-60f10716f650log Request Body: '------WebKitFormBoundaryLOYc0TXdWrxBksWr Content-Disposition: form-data; name="type"  0 ------WebKitFormBoundaryLOYc0TXdWrxBksWr Content-Disposition: form-data; name="externalNumber"  "69999999100" ------WebKitFormBoundaryLOYc0TXdWrxBksWr-- '
+domIDca764618-132a-45fd-ba4b-3343dc96f7belog HTTP GET /api/v6/banks/123/clients 
+domIDca764618-132a-45fd-ba4b-3343dc96f7belog Request Headers: {Accept=*/*, Accept-Encoding=gzip, deflate, br, Accept-Language=en,de;q=0.9,en-US;q=0.8,vi;q=0.7, Cache-Control=no-cache, Connection=keep-alive, Host=localhost:9003, Postman-Token=04ff606c-ea2e-809d-a22f-04e181039f50, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36}
+ domIDca764618-132a-45fd-ba4b-3343dc96f7belog Request Body: No body found
 
-domIDed29acee-db69-411c-9063-60f10716f650logReceived Timestamp:1519833412475
-domIDed29acee-db69-411c-9063-60f10716f650log Response Status: 201 (took 0ms)
-domIDed29acee-db69-411c-9063-60f10716f650log Response Headers: {Access-Control-Allow-Origin=chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop, Access-Control-Allow-Methods=GET,POST,PUT,DELETE,PATCH,OPTIONS, Access-Control-Allow-Credentials=true, Access-Control-Allow-Headers=Content-Type, Content-Type=application/json}
- domIDed29acee-db69-411c-9063-60f10716f650log Response Body: '{   "category": 123456,   "id": "666.666.66.100" }'
+domIDca764618-132a-45fd-ba4b-3343dc96f7belogReceived Timestamp:1521121568659
+domIDca764618-132a-45fd-ba4b-3343dc96f7belog Response Status: 200 (took 0ms)
+domIDca764618-132a-45fd-ba4b-3343dc96f7belog Response Headers: {Access-Control-Allow-Origin=*, Access-Control-Allow-Methods=GET,POST,PUT,DELETE,PATCH,OPTIONS, Access-Control-Allow-Credentials=true, Access-Control-Allow-Headers=Content-Type, Content-Type=application/json}
+ domIDca764618-132a-45fd-ba4b-3343dc96f7belog Response Body: '[   {     "number": "1234",     "externalNumber": "string",     "id": "123",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string",     "lastName": "string",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "5678",     "externalNumber": "string",     "id": "456",     "clientStatus": 1,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string1",     "lastName": "string1",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "9012",     "externalNumber": "string",     "id": "789",     "clientStatus": 100,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string2",     "lastName": "string2",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1278",     "externalNumber": "string",     "id": "012",     "clientStatus": 300,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string3",     "lastName": "string3",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1234",     "externalNumber": "string",     "id": "123",     "clientStatus": 100,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string",     "lastName": "string",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "5678",     "externalNumber": "string",     "id": "456",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string1",     "lastName": "string1",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "9012",     "externalNumber": "string",     "id": "789",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string2",     "lastName": "string2",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1278",     "externalNumber": "string",     "id": "012",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string3",     "lastName": "string3",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1234",     "externalNumber": "string",     "id": "123",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string",     "lastName": "string",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "5678",     "externalNumber": "string",     "id": "456",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string1",     "lastName": "string1",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "9012",     "externalNumber": "string",     "id": "789",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string2",     "lastName": "string2",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1278",     "externalNumber": "string",     "id": "012",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string3",     "lastName": "string3",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1234",     "externalNumber": "string",     "id": "123",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string",     "lastName": "string",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "5678",     "externalNumber": "string",     "id": "456",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string1",     "lastName": "string1",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "9012",     "externalNumber": "string",     "id": "789",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string2",     "lastName": "string2",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1278",     "externalNumber": "string",     "id": "012",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string3",     "lastName": "string3",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1234",     "externalNumber": "string",     "id": "123",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string",     "lastName": "string",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "5678",     "externalNumber": "string",     "id": "456",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string1",     "lastName": "string1",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "9012",     "externalNumber": "string",     "id": "789",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string2",     "lastName": "string2",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1278",     "externalNumber": "string",     "id": "012",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string3",     "lastName": "string3",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   } ]'
+Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail\services' with 8 -> 200 worker(s)
+Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail\services' with 8 -> 200 worker(s)
 
-domID94d19786-560b-459c-b37c-236a52cd729alog HTTP PUT /api/v6/banks/1/clients/31960/accounts/84685 
-domID94d19786-560b-459c-b37c-236a52cd729alog Request Headers: {Accept=*/*, Accept-Encoding=gzip, deflate, br, Accept-Language=en,de;q=0.9,en-US;q=0.8,vi;q=0.7, Cache-Control=no-cache, Connection=keep-alive, Content-Length=250, Content-Type=multipart/form-data; boundary=----WebKitFormBoundaryW9XSJh1WEKWT2L9S, Host=localhost:9000, Origin=chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop, Postman-Token=b171083c-7e6b-1c08-7aff-73b28feab2a6, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36}
- domID94d19786-560b-459c-b37c-236a52cd729alog Request Body: '------WebKitFormBoundaryW9XSJh1WEKWT2L9S Content-Disposition: form-data; name="type"  0 ------WebKitFormBoundaryW9XSJh1WEKWT2L9S Content-Disposition: form-data; name="externalNumber"  "69999999100" ------WebKitFormBoundaryW9XSJh1WEKWT2L9S-- '
+domIDabf24eec-d00e-4967-b5af-62a2289a75c1log HTTP GET /api/v6/banks/123/clients 
+domIDabf24eec-d00e-4967-b5af-62a2289a75c1log Request Headers: {Accept=*/*, Accept-Encoding=gzip, deflate, br, Accept-Language=en,de;q=0.9,en-US;q=0.8,vi;q=0.7, Cache-Control=no-cache, Connection=keep-alive, Host=localhost:9003, Postman-Token=2bf309be-a7f9-94b3-11ce-7583b61ef345, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36}
+ domIDabf24eec-d00e-4967-b5af-62a2289a75c1log Request Body: No body found
 
-domID94d19786-560b-459c-b37c-236a52cd729alogReceived Timestamp:1519833418094
-domID94d19786-560b-459c-b37c-236a52cd729alog Response Status: 201 (took 0ms)
-domID94d19786-560b-459c-b37c-236a52cd729alog Response Headers: {Access-Control-Allow-Origin=chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop, Access-Control-Allow-Methods=GET,POST,PUT,DELETE,PATCH,OPTIONS, Access-Control-Allow-Credentials=true, Access-Control-Allow-Headers=Content-Type, Content-Type=application/json}
- domID94d19786-560b-459c-b37c-236a52cd729alog Response Body: '{   "category": 123456,   "id": "666.666.66.100" }'
-
-domID077b5a18-2990-459a-8d5b-6d1f8637e494log HTTP PUT /api/v6/banks/1/clients/31960/accounts/84685 
-domID077b5a18-2990-459a-8d5b-6d1f8637e494log Request Headers: {Accept=*/*, Accept-Encoding=gzip, deflate, br, Accept-Language=en,de;q=0.9,en-US;q=0.8,vi;q=0.7, Cache-Control=no-cache, Connection=keep-alive, Content-Length=250, Content-Type=multipart/form-data; boundary=----WebKitFormBoundarySAP161inIKd779Ai, Host=localhost:9000, Origin=chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop, Postman-Token=8a2e2b12-0228-a0c2-9e55-559363150614, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36}
- domID077b5a18-2990-459a-8d5b-6d1f8637e494log Request Body: '------WebKitFormBoundarySAP161inIKd779Ai Content-Disposition: form-data; name="type"  0 ------WebKitFormBoundarySAP161inIKd779Ai Content-Disposition: form-data; name="externalNumber"  "69999999100" ------WebKitFormBoundarySAP161inIKd779Ai-- '
-
-domID077b5a18-2990-459a-8d5b-6d1f8637e494logReceived Timestamp:1519833418869
-domID077b5a18-2990-459a-8d5b-6d1f8637e494log Response Status: 201 (took 0ms)
-domID077b5a18-2990-459a-8d5b-6d1f8637e494log Response Headers: {Access-Control-Allow-Origin=chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop, Access-Control-Allow-Methods=GET,POST,PUT,DELETE,PATCH,OPTIONS, Access-Control-Allow-Credentials=true, Access-Control-Allow-Headers=Content-Type, Content-Type=application/json}
- domID077b5a18-2990-459a-8d5b-6d1f8637e494log Response Body: '{   "category": 123456,   "id": "666.666.66.100" }'
-Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\work\Git_Workspace\boomerang\sandbox-tail' with 8 -> 200 worker(s)
-**domIDb193e7ed-d6b6-4edf-b0a3-b7652b588a36log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domIDd01bc976-2a6c-4b09-be03-ec93cc0af899log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
+domIDabf24eec-d00e-4967-b5af-62a2289a75c1logReceived Timestamp:1521121961151
+domIDabf24eec-d00e-4967-b5af-62a2289a75c1log Response Status: 200 (took 0ms)
+domIDabf24eec-d00e-4967-b5af-62a2289a75c1log Response Headers: {Access-Control-Allow-Origin=*, Access-Control-Allow-Methods=GET,POST,PUT,DELETE,PATCH,OPTIONS, Access-Control-Allow-Credentials=true, Access-Control-Allow-Headers=Content-Type, Content-Type=application/json}
+ domIDabf24eec-d00e-4967-b5af-62a2289a75c1log Response Body: '[   {     "number": "1234",     "externalNumber": "string",     "id": "123",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string",     "lastName": "string",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "5678",     "externalNumber": "string",     "id": "456",     "clientStatus": 1,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string1",     "lastName": "string1",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "9012",     "externalNumber": "string",     "id": "789",     "clientStatus": 100,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string2",     "lastName": "string2",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1278",     "externalNumber": "string",     "id": "012",     "clientStatus": 300,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string3",     "lastName": "string3",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1234",     "externalNumber": "string",     "id": "123",     "clientStatus": 100,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string",     "lastName": "string",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "5678",     "externalNumber": "string",     "id": "456",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string1",     "lastName": "string1",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "9012",     "externalNumber": "string",     "id": "789",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string2",     "lastName": "string2",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1278",     "externalNumber": "string",     "id": "012",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string3",     "lastName": "string3",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1234",     "externalNumber": "string",     "id": "123",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string",     "lastName": "string",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "5678",     "externalNumber": "string",     "id": "456",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string1",     "lastName": "string1",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "9012",     "externalNumber": "string",     "id": "789",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string2",     "lastName": "string2",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1278",     "externalNumber": "string",     "id": "012",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string3",     "lastName": "string3",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1234",     "externalNumber": "string",     "id": "123",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string",     "lastName": "string",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "5678",     "externalNumber": "string",     "id": "456",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string1",     "lastName": "string1",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "9012",     "externalNumber": "string",     "id": "789",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string2",     "lastName": "string2",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1278",     "externalNumber": "string",     "id": "012",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string3",     "lastName": "string3",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1234",     "externalNumber": "string",     "id": "123",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string",     "lastName": "string",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "5678",     "externalNumber": "string",     "id": "456",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string1",     "lastName": "string1",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "9012",     "externalNumber": "string",     "id": "789",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string2",     "lastName": "string2",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   },   {     "number": "1278",     "externalNumber": "string",     "id": "012",     "clientStatus": 0,     "closureDate": "2017-09-14T08:45:42.252Z",     "firstName": "string3",     "lastName": "string3",     "clientHeaderRow2": "string",     "clientHeaderRow3": "string",     "postCode": 0,     "place": "string",     "canton": "string",     "dateOfBirth": "2017-09-14T08:45:42.252Z",     "clientIdentified": false   } ]'
 Clearing routing table on JS file change
 Clearing routing table on JS file change
 Clearing routing table on JS file change
 Clearing routing table on JS file change
-Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\work\Git_Workspace\boomerang\sandbox-tail' with 8 -> 200 worker(s)
-**domID583d59c5-ef9c-47f7-86d4-88cab9b44f24log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domID62ad2e8a-fa83-4713-9298-f19f8a0f79a1log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-
-domIDcb8d83e8-a741-49ca-8bea-b75db89c9ce2log HTTP POST /assetallocation/getcurrent 
-domIDcb8d83e8-a741-49ca-8bea-b75db89c9ce2log Request Headers: {Accept=*/*, Accept-Encoding=gzip, deflate, Cache-Control=no-cache, Connection=keep-alive, Content-Length=37, Content-Type=application/json, Host=localhost:9003, Postman-Token=352ee1ba-bd17-4d02-9846-3099897dcd3f, User-Agent=PostmanRuntime/7.1.1}
- domIDcb8d83e8-a741-49ca-8bea-b75db89c9ce2log Request Body: '{"ProductId": 62, "RiskProfileId": 2}'
-
-domIDcb8d83e8-a741-49ca-8bea-b75db89c9ce2logReceived Timestamp:1519876477975
-domIDcb8d83e8-a741-49ca-8bea-b75db89c9ce2log Response Status: 200 (took 0ms)
-domIDcb8d83e8-a741-49ca-8bea-b75db89c9ce2log Response Headers: {Access-Control-Allow-Origin=*, Access-Control-Allow-Methods=GET,POST,PUT,DELETE,PATCH,OPTIONS, Access-Control-Allow-Credentials=true, Access-Control-Allow-Headers=Content-Type, Content-Type=application/json}
- domIDcb8d83e8-a741-49ca-8bea-b75db89c9ce2log Response Body: '{   "AssetAllocationTypeId": 155,   "FoundationSpecificAssetAllocationTypes": null }'
-**domID6c4e4e03-c1f8-4154-be86-ccf66f9899f9log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
+Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail' with 8 -> 200 worker(s)
 Clearing routing table on JS file change
 Clearing routing table on JS file change
-Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\work\Git_Workspace\boomerang\sandbox-tail' with 8 -> 200 worker(s)
-**domID107c58e2-0129-4324-979d-ed7005eacdd9log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domID889128a3-5d66-443c-84aa-9ee8e4eab88elog Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domIDa1443b95-a7f9-41e0-a9fa-0710084cc8f1log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domID85381fe5-945b-47c7-a91e-038635c965f2log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domIDf37fd7f7-1ef5-47ce-b347-9e2a6bf07a05log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domIDf98353f3-067a-4c27-a0d6-9c44bbd083f4log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domIDca212b1d-0ddb-4d88-a8bf-b26c17b7e277log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domID42856cb9-ef4e-4235-9426-6616af32712elog Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domID790dda39-ccf4-44d8-97bc-c11947a55d23log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domID2a3d13a8-fd6e-466b-8d5c-655c2931e20alog Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-
-domID9fe9bf68-7eab-4385-962c-ac215ef8b379log HTTP POST /assetallocation/getcurrent 
-domID9fe9bf68-7eab-4385-962c-ac215ef8b379log Request Headers: {Accept=*/*, Accept-Encoding=gzip, deflate, Cache-Control=no-cache, Connection=keep-alive, Content-Length=37, Content-Type=application/json, Host=localhost:9003, Postman-Token=07de7ed8-7972-442b-a11d-87d66a0ca21f, User-Agent=PostmanRuntime/7.1.1}
- domID9fe9bf68-7eab-4385-962c-ac215ef8b379log Request Body: '{"ProductId": 62, "RiskProfileId": 2}'
-
-domID9fe9bf68-7eab-4385-962c-ac215ef8b379logReceived Timestamp:1519876548582
-domID9fe9bf68-7eab-4385-962c-ac215ef8b379log Response Status: 200 (took 0ms)
-domID9fe9bf68-7eab-4385-962c-ac215ef8b379log Response Headers: {Access-Control-Allow-Origin=*, Access-Control-Allow-Methods=GET,POST,PUT,DELETE,PATCH,OPTIONS, Access-Control-Allow-Credentials=true, Access-Control-Allow-Headers=Content-Type, Content-Type=application/json}
- domID9fe9bf68-7eab-4385-962c-ac215ef8b379log Response Body: '{   "AssetAllocationTypeId": 155,   "FoundationSpecificAssetAllocationTypes": null }'
-
-domIDfdafa9cc-b8bc-4d87-8e92-847eec785fc3log HTTP POST /assetallocation/getcurrent 
-domIDfdafa9cc-b8bc-4d87-8e92-847eec785fc3log Request Headers: {Accept=*/*, Accept-Encoding=gzip, deflate, Cache-Control=no-cache, Connection=keep-alive, Content-Length=37, Content-Type=application/json, Host=localhost:9003, Postman-Token=0a640d7d-b3ee-454c-bd47-fab1b7c60518, User-Agent=PostmanRuntime/7.1.1}
- domIDfdafa9cc-b8bc-4d87-8e92-847eec785fc3log Request Body: '{"ProductId": 62, "RiskProfileId": 2}'
-
-domIDfdafa9cc-b8bc-4d87-8e92-847eec785fc3logReceived Timestamp:1519876549635
-domIDfdafa9cc-b8bc-4d87-8e92-847eec785fc3log Response Status: 200 (took 0ms)
-domIDfdafa9cc-b8bc-4d87-8e92-847eec785fc3log Response Headers: {Access-Control-Allow-Origin=*, Access-Control-Allow-Methods=GET,POST,PUT,DELETE,PATCH,OPTIONS, Access-Control-Allow-Credentials=true, Access-Control-Allow-Headers=Content-Type, Content-Type=application/json}
- domIDfdafa9cc-b8bc-4d87-8e92-847eec785fc3log Response Body: '{   "AssetAllocationTypeId": 155,   "FoundationSpecificAssetAllocationTypes": null }'
-
-domID748e6489-e381-4a6e-ab88-5e262da2659blog HTTP POST /assetallocation/getcurrent 
-domID748e6489-e381-4a6e-ab88-5e262da2659blog Request Headers: {Accept=*/*, Accept-Encoding=gzip, deflate, Cache-Control=no-cache, Connection=keep-alive, Content-Length=37, Content-Type=application/json, Host=localhost:9003, Postman-Token=bc7a201e-726c-4fff-ba75-0eabd8bef867, User-Agent=PostmanRuntime/7.1.1}
- domID748e6489-e381-4a6e-ab88-5e262da2659blog Request Body: '{"ProductId": 62, "RiskProfileId": 2}'
-
-domID748e6489-e381-4a6e-ab88-5e262da2659blogReceived Timestamp:1519876549848
-domID748e6489-e381-4a6e-ab88-5e262da2659blog Response Status: 200 (took 0ms)
-domID748e6489-e381-4a6e-ab88-5e262da2659blog Response Headers: {Access-Control-Allow-Origin=*, Access-Control-Allow-Methods=GET,POST,PUT,DELETE,PATCH,OPTIONS, Access-Control-Allow-Credentials=true, Access-Control-Allow-Headers=Content-Type, Content-Type=application/json}
- domID748e6489-e381-4a6e-ab88-5e262da2659blog Response Body: '{   "AssetAllocationTypeId": 155,   "FoundationSpecificAssetAllocationTypes": null }'
-
-domIDd948577e-bdac-4fd5-b800-0c215d99e22alog HTTP POST /assetallocation/getcurrent 
-domIDd948577e-bdac-4fd5-b800-0c215d99e22alog Request Headers: {Accept=*/*, Accept-Encoding=gzip, deflate, Cache-Control=no-cache, Connection=keep-alive, Content-Length=37, Content-Type=application/json, Host=localhost:9003, Postman-Token=ebc2972d-4359-4fe4-94d7-19ea0e3fcc21, User-Agent=PostmanRuntime/7.1.1}
- domIDd948577e-bdac-4fd5-b800-0c215d99e22alog Request Body: '{"ProductId": 62, "RiskProfileId": 2}'
-
-domIDd948577e-bdac-4fd5-b800-0c215d99e22alogReceived Timestamp:1519876568393
-domIDd948577e-bdac-4fd5-b800-0c215d99e22alog Response Status: 200 (took 0ms)
-domIDd948577e-bdac-4fd5-b800-0c215d99e22alog Response Headers: {Access-Control-Allow-Origin=*, Access-Control-Allow-Methods=GET,POST,PUT,DELETE,PATCH,OPTIONS, Access-Control-Allow-Credentials=true, Access-Control-Allow-Headers=Content-Type, Content-Type=application/json}
- domIDd948577e-bdac-4fd5-b800-0c215d99e22alog Response Body: '{   "AssetAllocationTypeId": 155,   "FoundationSpecificAssetAllocationTypes": null }'
-**domIDb9ea7211-70a0-4fcf-96fe-5625e3997188log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domIDd0ec6fc2-d6d6-4916-8ab3-3a5a72cd1e6blog Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domID1804bd7a-ea8c-4ed1-a861-78cfd2b11520log Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
-**domID019546fa-c1d2-40d0-8bcb-883cbda521felog Error processing request for POST /edossier-webservice/EDossierWebservice - Invalid route
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail' with 8 -> 200 worker(s)
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail' with 8 -> 200 worker(s)
 Clearing routing table on JS file change
 Clearing routing table on JS file change
 Clearing routing table on JS file change
@@ -113,24 +272,65 @@ Clearing routing table on JS file change
 Clearing routing table on JS file change
 Clearing routing table on JS file change
 Clearing routing table on JS file change
-
-domID87eb35cf-60bf-4e79-8585-bdddc80dae64log HTTP POST /edossier-webservice/EDossierWebservice 
-domID87eb35cf-60bf-4e79-8585-bdddc80dae64log Request Headers: {Accept=*/*, Accept-Encoding=gzip, deflate, Cache-Control=no-cache, Connection=keep-alive, Content-Length=5063, Content-Type=text/xml, Host=localhost:9003, Postman-Token=74630010-8a32-4bab-9fda-7a514edec5b0, User-Agent=PostmanRuntime/7.1.1}
- domID87eb35cf-60bf-4e79-8585-bdddc80dae64log Request Body: '<?xml version='1.0' encoding='UTF-8'?> <soapenv:Envelope     xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">     <soapenv:Body>         <ns14:uploadKundenDokument             xmlns:ns14="http://www.elca.ch/edossier/webservice">             <parameter>                 <identity                     xmlns="http://www.elca.ch/edossier/webservice/uploadkundendokument">                     <ns1:FIN_username                         xmlns:ns1="http://www.elca.ch/edossier/webservice/datatypes">                     </ns1:FIN_username>                     <ns1:FIN_password                         xmlns:ns1="http://www.elca.ch/edossier/webservice/datatypes">                     </ns1:FIN_password>                     <ns1:FIN_userbk_nr                         xmlns:ns1="http://www.elca.ch/edossier/webservice/datatypes">0                     </ns1:FIN_userbk_nr>                     <ns1:WIN_username                         xmlns:ns1="http://www.elca.ch/edossier/webservice/datatypes">                     </ns1:WIN_username>                 </identity>                 <metadaten                     xmlns="http://www.elca.ch/edossier/webservice/uploadkundendokument">                     <FIN_userbk_nr>0</FIN_userbk_nr>                     <FIN_Kunden_nr>231234</FIN_Kunden_nr>                     <FIN_Konto_nr></FIN_Konto_nr>                     <FIN_Belegart>DECKBLATTAHID1</FIN_Belegart>                     <FIN_Datum>2018-01-24T04:50:43.000+00:00</FIN_Datum>                     <mutableTitle>Identifikation DOC000002937</mutableTitle>                     <fileName>DECKBLATTAHID1 DOC000002937.pdf</fileName>                     <eD_Hauptkategorie></eD_Hauptkategorie>                     <status>final</status>                     <externalSourceSystem>Axon</externalSourceSystem>                     <externalCreateDate>2018-01-24T07:10:55.000+00:00</externalCreateDate>                     <externalSourceSystemJob>COB001738</externalSourceSystemJob>                 </metadaten>                 <dokument                     xmlns="http://www.elca.ch/edossier/webservice/uploadkundendokument">                     <ns3:mimeType                         xmlns:ns3="http://www.elca.ch/edossier/webservice/dokumentdatatypes">application/pdf                     </ns3:mimeType>                     <ns3:data                         xmlns:ns3="http://www.elca.ch/edossier/webservice/dokumentdatatypes">JVBERi0xLjcNJcjIyMjIyMgNMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvVmVyc2lvbi8xLjcvUGFnZXMgMyAwIFIvT3V0bGluZXMgMiAwIFIvTmFtZXMgOCAwIFIvTWV0YWRhdGEgMTQgMCBSPj4NCmVuZG9iagoyIDAgb2JqCjw8L1R5cGUvT3V0bGluZXMvQ291bnQgMD4+DQplbmRvYmoKMyAwIG9iago8PC9UeXBlL1BhZ2VzL0tpZHNbOSAwIFJdL0NvdW50IDE+Pg0KZW5kb2JqCjQgMCBvYmoKPDwvQXV0aG9yKCkvQ3JlYXRpb25EYXRlKEQ6MjAxODAxMjQwNTAxMTArMDAnMDAnKS9Nb2REYXRlKEQ6MjAxODAxMjQwNTAxMTArMDAnMDAnKS9Qcm9kdWNlcihBc3Bvc2UuUGRmIGZvciBKYXZhIDEwLjYuMSkvU3ViamVjdCgpL1RpdGxlKCkvQ3JlYXRvcihBc3Bvc2UgTHRkLik+Pg0KZW5kb2JqCjYgMCBvYmoKPDwvRmlsdGVyL0ZsYXRlRGVjb2RlL0xlbmd0aCA4Pj5zdHJlYW0NCnicAwAAAAABDQplbmRzdHJlYW0NCmVuZG9iago3IDAgb2JqClsvUERGXQ0KZW5kb2JqCjggMCBvYmoKPDw+Pg0KZW5kb2JqCjkgMCBvYmoKPDwvVHlwZS9QYWdlL1BhcmVudCAzIDAgUi9NZWRpYUJveFswIDAgNTk1IDg0Ml0vQ29udGVudHMgMTAgMCBSL1Jlc291cmNlczw8L1Byb2NTZXQgMTEgMCBSL0ZvbnQ8PC9GMCAxMiAwIFI+Pj4+Pj4NCmVuZG9iagoxMCAwIG9iago8PC9GaWx0ZXIvRmxhdGVEZWNvZGUvTGVuZ3RoIDY4Pj5zdHJlYW0NCnic4yrkcgrh0nczUDAyUAhJ4zJQAMGidC5DMMNQwdRAwcLARM/QRCEkl0sjJLW4RFMhJAsuDSKBEnBtriFcgQDMQREyDQplbmRzdHJlYW0NCmVuZG9iagoxMSAwIG9iagpbL1BERl0NCmVuZG9iagoxMiAwIG9iago8PC9UeXBlL0ZvbnQvU3VidHlwZS9UeXBlMS9CYXNlRm9udC9IZWx2ZXRpY2EvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nL0ZvbnREZXNjcmlwdG9yIDEzIDAgUj4+DQplbmRvYmoKMTMgMCBvYmoKPDwvVHlwZS9Gb250RGVzY3JpcHRvci9Gb250TmFtZS9IZWx2ZXRpY2EvRm9udEJCb3hbLTE2NiAtMjI1IDEwMDAgOTMxXS9JdGFsaWNBbmdsZSAwL0FzY2VudCA3MTgvRGVzY2VudCAtMjA3L0ZsYWdzIDMyL0NhcEhlaWdodCA3MTgvU3RlbVYgODg+Pg0KZW5kb2JqCjE0IDAgb2JqCjw8L0xlbmd0aCAyMzcvVHlwZS9NZXRhZGF0YS9TdWJ0eXBlL1hNTD4+c3RyZWFtDQo8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pgo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIj4KIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgLz4KIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Cjw/eHBhY2tldCBlbmQ9InIiPz4NCmVuZHN0cmVhbQ0KZW5kb2JqCnhyZWYKMCA1DQowMDAwMDAwMDAwIDY1NTM1IGYNCjAwMDAwMDAwMTggMDAwMDAgbg0KMDAwMDAwMDExOSAwMDAwMCBuDQowMDAwMDAwMTYyIDAwMDAwIG4NCjAwMDAwMDAyMTQgMDAwMDAgbg0KNiA5DQowMDAwMDAwMzkxIDAwMDAwIG4NCjAwMDAwMDA0NjcgMDAwMDAgbg0KMDAwMDAwMDQ5MCAwMDAwMCBuDQowMDAwMDAwNTExIDAwMDAwIG4NCjAwMDAwMDA2NDEgMDAwMDAgbg0KMDAwMDAwMDc3OSAwMDAwMCBuDQowMDAwMDAwODAzIDAwMDAwIG4NCjAwMDAwMDA5MTUgMDAwMDAgbg0KMDAwMDAwMTA3NSAwMDAwMCBuDQp0cmFpbGVyCjw8L1Jvb3QgMSAwIFIvSW5mbyA0IDAgUi9JRFs8MzAzNzJENDUzMjJEMzkzNzJEMzkzMDJEMzkzODJEMzc+PDMwNDYyRDM1MzQyRDQ1NDQyRDQ2NDMyRDM0MzEyRDQyPl0vU2l6ZSAxNT4+CnN0YXJ0eHJlZgoxMzkwCiUlRU9GCg==                     </ns3:data>                 </dokument>             </parameter>         </ns14:uploadKundenDokument>     </soapenv:Body> </soapenv:Envelope>'
-
-domID87eb35cf-60bf-4e79-8585-bdddc80dae64logReceived Timestamp:1519876883287
-domID87eb35cf-60bf-4e79-8585-bdddc80dae64log Response Status: 400 (took 0ms)
-domID87eb35cf-60bf-4e79-8585-bdddc80dae64log Response Headers: {Access-Control-Allow-Origin=*, Access-Control-Allow-Methods=GET,POST,PUT,DELETE,PATCH,OPTIONS, Access-Control-Allow-Credentials=true, Access-Control-Allow-Headers=Content-Type, Content-Type=application/xml}
- domID87eb35cf-60bf-4e79-8585-bdddc80dae64log Response Body: '<soapenv:uploadKundenDokumentResponse xmlns:soapenv="http://www.elca.ch/edossier/webservice" xmlns:web="http://www.elca.ch/edossier/webservice" xmlns:upl="http://www.elca.ch/edossier/webservice/uploadkundendokument" xmlns:dat="http://www.elca.ch/edossier/webservice/datatypes">          <!--Optional:-->          <uploadDokumentReturnMessage>             <!--Optional:-->             <upl:sessionID>                <dat:SessionToken>TOKEN123</dat:SessionToken>                <dat:WIN_username>TESTUSER</dat:WIN_username>             </upl:sessionID>          </uploadDokumentReturnMessage> </soapenv:uploadKundenDokumentResponse>'
-Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\work\Git_Workspace\boomerang\sandbox-tail' with 8 -> 200 worker(s)
-Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\work\Git_Workspace\boomerang\sandbox-tail' with 8 -> 200 worker(s)
-
-domID24f9b4b2-0a71-43cc-8f5c-ee9de00743f0log HTTP POST /edossier-webservice/EDossierWebservice 
-domID24f9b4b2-0a71-43cc-8f5c-ee9de00743f0log Request Headers: {Accept=*/*, Accept-Encoding=gzip, deflate, Cache-Control=no-cache, Connection=keep-alive, Content-Length=5063, Content-Type=text/xml, Host=localhost:9003, Postman-Token=0bea5d6c-d6ef-44a4-91db-6054c7ec0241, User-Agent=PostmanRuntime/7.1.1}
- domID24f9b4b2-0a71-43cc-8f5c-ee9de00743f0log Request Body: '<?xml version='1.0' encoding='UTF-8'?> <soapenv:Envelope     xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">     <soapenv:Body>         <ns14:uploadKundenDokument             xmlns:ns14="http://www.elca.ch/edossier/webservice">             <parameter>                 <identity                     xmlns="http://www.elca.ch/edossier/webservice/uploadkundendokument">                     <ns1:FIN_username                         xmlns:ns1="http://www.elca.ch/edossier/webservice/datatypes">                     </ns1:FIN_username>                     <ns1:FIN_password                         xmlns:ns1="http://www.elca.ch/edossier/webservice/datatypes">                     </ns1:FIN_password>                     <ns1:FIN_userbk_nr                         xmlns:ns1="http://www.elca.ch/edossier/webservice/datatypes">0                     </ns1:FIN_userbk_nr>                     <ns1:WIN_username                         xmlns:ns1="http://www.elca.ch/edossier/webservice/datatypes">                     </ns1:WIN_username>                 </identity>                 <metadaten                     xmlns="http://www.elca.ch/edossier/webservice/uploadkundendokument">                     <FIN_userbk_nr>0</FIN_userbk_nr>                     <FIN_Kunden_nr>231234</FIN_Kunden_nr>                     <FIN_Konto_nr></FIN_Konto_nr>                     <FIN_Belegart>DECKBLATTAHID1</FIN_Belegart>                     <FIN_Datum>2018-01-24T04:50:43.000+00:00</FIN_Datum>                     <mutableTitle>Identifikation DOC000002937</mutableTitle>                     <fileName>DECKBLATTAHID1 DOC000002937.pdf</fileName>                     <eD_Hauptkategorie></eD_Hauptkategorie>                     <status>final</status>                     <externalSourceSystem>Axon</externalSourceSystem>                     <externalCreateDate>2018-01-24T07:10:55.000+00:00</externalCreateDate>                     <externalSourceSystemJob>COB001738</externalSourceSystemJob>                 </metadaten>                 <dokument                     xmlns="http://www.elca.ch/edossier/webservice/uploadkundendokument">                     <ns3:mimeType                         xmlns:ns3="http://www.elca.ch/edossier/webservice/dokumentdatatypes">application/pdf                     </ns3:mimeType>                     <ns3:data                         xmlns:ns3="http://www.elca.ch/edossier/webservice/dokumentdatatypes">JVBERi0xLjcNJcjIyMjIyMgNMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvVmVyc2lvbi8xLjcvUGFnZXMgMyAwIFIvT3V0bGluZXMgMiAwIFIvTmFtZXMgOCAwIFIvTWV0YWRhdGEgMTQgMCBSPj4NCmVuZG9iagoyIDAgb2JqCjw8L1R5cGUvT3V0bGluZXMvQ291bnQgMD4+DQplbmRvYmoKMyAwIG9iago8PC9UeXBlL1BhZ2VzL0tpZHNbOSAwIFJdL0NvdW50IDE+Pg0KZW5kb2JqCjQgMCBvYmoKPDwvQXV0aG9yKCkvQ3JlYXRpb25EYXRlKEQ6MjAxODAxMjQwNTAxMTArMDAnMDAnKS9Nb2REYXRlKEQ6MjAxODAxMjQwNTAxMTArMDAnMDAnKS9Qcm9kdWNlcihBc3Bvc2UuUGRmIGZvciBKYXZhIDEwLjYuMSkvU3ViamVjdCgpL1RpdGxlKCkvQ3JlYXRvcihBc3Bvc2UgTHRkLik+Pg0KZW5kb2JqCjYgMCBvYmoKPDwvRmlsdGVyL0ZsYXRlRGVjb2RlL0xlbmd0aCA4Pj5zdHJlYW0NCnicAwAAAAABDQplbmRzdHJlYW0NCmVuZG9iago3IDAgb2JqClsvUERGXQ0KZW5kb2JqCjggMCBvYmoKPDw+Pg0KZW5kb2JqCjkgMCBvYmoKPDwvVHlwZS9QYWdlL1BhcmVudCAzIDAgUi9NZWRpYUJveFswIDAgNTk1IDg0Ml0vQ29udGVudHMgMTAgMCBSL1Jlc291cmNlczw8L1Byb2NTZXQgMTEgMCBSL0ZvbnQ8PC9GMCAxMiAwIFI+Pj4+Pj4NCmVuZG9iagoxMCAwIG9iago8PC9GaWx0ZXIvRmxhdGVEZWNvZGUvTGVuZ3RoIDY4Pj5zdHJlYW0NCnic4yrkcgrh0nczUDAyUAhJ4zJQAMGidC5DMMNQwdRAwcLARM/QRCEkl0sjJLW4RFMhJAsuDSKBEnBtriFcgQDMQREyDQplbmRzdHJlYW0NCmVuZG9iagoxMSAwIG9iagpbL1BERl0NCmVuZG9iagoxMiAwIG9iago8PC9UeXBlL0ZvbnQvU3VidHlwZS9UeXBlMS9CYXNlRm9udC9IZWx2ZXRpY2EvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nL0ZvbnREZXNjcmlwdG9yIDEzIDAgUj4+DQplbmRvYmoKMTMgMCBvYmoKPDwvVHlwZS9Gb250RGVzY3JpcHRvci9Gb250TmFtZS9IZWx2ZXRpY2EvRm9udEJCb3hbLTE2NiAtMjI1IDEwMDAgOTMxXS9JdGFsaWNBbmdsZSAwL0FzY2VudCA3MTgvRGVzY2VudCAtMjA3L0ZsYWdzIDMyL0NhcEhlaWdodCA3MTgvU3RlbVYgODg+Pg0KZW5kb2JqCjE0IDAgb2JqCjw8L0xlbmd0aCAyMzcvVHlwZS9NZXRhZGF0YS9TdWJ0eXBlL1hNTD4+c3RyZWFtDQo8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pgo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIj4KIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgLz4KIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Cjw/eHBhY2tldCBlbmQ9InIiPz4NCmVuZHN0cmVhbQ0KZW5kb2JqCnhyZWYKMCA1DQowMDAwMDAwMDAwIDY1NTM1IGYNCjAwMDAwMDAwMTggMDAwMDAgbg0KMDAwMDAwMDExOSAwMDAwMCBuDQowMDAwMDAwMTYyIDAwMDAwIG4NCjAwMDAwMDAyMTQgMDAwMDAgbg0KNiA5DQowMDAwMDAwMzkxIDAwMDAwIG4NCjAwMDAwMDA0NjcgMDAwMDAgbg0KMDAwMDAwMDQ5MCAwMDAwMCBuDQowMDAwMDAwNTExIDAwMDAwIG4NCjAwMDAwMDA2NDEgMDAwMDAgbg0KMDAwMDAwMDc3OSAwMDAwMCBuDQowMDAwMDAwODAzIDAwMDAwIG4NCjAwMDAwMDA5MTUgMDAwMDAgbg0KMDAwMDAwMTA3NSAwMDAwMCBuDQp0cmFpbGVyCjw8L1Jvb3QgMSAwIFIvSW5mbyA0IDAgUi9JRFs8MzAzNzJENDUzMjJEMzkzNzJEMzkzMDJEMzkzODJEMzc+PDMwNDYyRDM1MzQyRDQ1NDQyRDQ2NDMyRDM0MzEyRDQyPl0vU2l6ZSAxNT4+CnN0YXJ0eHJlZgoxMzkwCiUlRU9GCg==                     </ns3:data>                 </dokument>             </parameter>         </ns14:uploadKundenDokument>     </soapenv:Body> </soapenv:Envelope>'
-
-domID24f9b4b2-0a71-43cc-8f5c-ee9de00743f0logReceived Timestamp:1519876946471
-domID24f9b4b2-0a71-43cc-8f5c-ee9de00743f0log Response Status: 400 (took 0ms)
-domID24f9b4b2-0a71-43cc-8f5c-ee9de00743f0log Response Headers: {Access-Control-Allow-Origin=*, Access-Control-Allow-Methods=GET,POST,PUT,DELETE,PATCH,OPTIONS, Access-Control-Allow-Credentials=true, Access-Control-Allow-Headers=Content-Type, Content-Type=application/xml}
- domID24f9b4b2-0a71-43cc-8f5c-ee9de00743f0log Response Body: '<soapenv:uploadKundenDokumentResponse xmlns:soapenv="http://www.elca.ch/edossier/webservice" xmlns:web="http://www.elca.ch/edossier/webservice" xmlns:upl="http://www.elca.ch/edossier/webservice/uploadkundendokument" xmlns:dat="http://www.elca.ch/edossier/webservice/datatypes">          <!--Optional:-->          <uploadDokumentReturnMessage>             <!--Optional:-->             <upl:sessionID>                <dat:SessionToken>TOKEN123</dat:SessionToken>                <dat:WIN_username>TESTUSER</dat:WIN_username>             </upl:sessionID>          </uploadDokumentReturnMessage> </soapenv:uploadKundenDokumentResponse>'
-Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\work\Git_Workspace\boomerang\sandbox-tail' with 8 -> 200 worker(s)
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail' with 8 -> 200 worker(s)
+Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail' with 8 -> 200 worker(s)
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail' with 8 -> 200 worker(s)
+Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail' with 8 -> 200 worker(s)
+Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail' with 8 -> 200 worker(s)
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail' with 8 -> 200 worker(s)
+Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\nhduong29\boomerang' with 8 -> 200 worker(s)
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change
+Clearing routing table on JS file change

@@ -233,7 +233,7 @@ window.App = (function app(window, document) {
         panel.innerHTML='<div class="panel panel-default">'
             + '<div class="panel-heading">'
               + '<h4 class="panel-title">'
-                + '<a class="title-link" data-toggle="collapse" href="#'+domID+'" title="' + data+ '"><i class="caret"></i><span id="'+domID+'time"></span> ' + text+ '<span id="'+domID+'status" class="status"></span> <i id="'+domID+'status-icon" class="status-icon fas fa-circle"></i></a>'
+                + '<a class="title-link" data-toggle="collapse" href="#'+domID+'" title="' + data+ '"><i class="caret"></i><span id="'+domID+'time"></span> ' + text+ '<span id="'+domID+'status" class="status"></span> <i id="'+domID+'status-icon" class="status-icon fa fa-circle"></i></a>'
               + '</h4>'
             + '</div>'
             + '<div id="'+domID+'" class="panel-collapse collapse">'

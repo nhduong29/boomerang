@@ -1,0 +1,40 @@
+.api-container{
+  width: 100%;
+  padding: 56px;
+  display: flex;
+  #api{
+    display: none;
+  }
+  #save-api{
+    margin-top: 32px;
+  }
+  #tree-wrapper{
+    width: 280px;
+    border-radius:10px;
+    background: $hover-color;
+    box-shadow: $box-shadow;
+    margin-right: 32px;
+    @at-root .second-nav{
+      height: 56px;
+      padding: 0 24px;
+      border-radius: 10px 10px 0 0;
+      background: $primary-dark-color;
+      h6{
+        line-height: 56px;
+        color: #fff;
+        margin: 0;
+      }
+    }
+    #tree{
+      padding:16px;
+    }
+
+  }
+  .code-editor-wrapper{
+    flex: 1;
+    min-width:600px;
+    .CodeMirror {
+      box-shadow: $box-shadow;
+    }
+  }
+}

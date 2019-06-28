@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Boomerang</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/bootstrap-v4/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/line-awesome/css/line-awesome.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="/vendor/jquery.mCustomScrollbar.min.css">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3></h3>
+            </div>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="/"><i class="la la-home"></i>Home</a>
+                </li>
+                <li><a href="/api"><i class="la la-code-fork"></i>Define API</a></li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="la la-clone"></i>Sandbox</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li><a href="https://getsandbox.com/docs/definition-api" target="_blank"><i class="la la-circle"></i>API Docs</a></li>
+                        <li><a href="https://github.com/getsandbox/sandbox" target="_blank"><i class="la la-circle"></i>Sandbox Runtime</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="https://github.com/mthenw/frontail" target="_blank"><i class="la la-circle"></i>tail -F with UI</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="/about"><i class="la la-user-secret"></i>About</a></li>
+                <li><a href="/advance"><i class="la la-gear"></i>Advance</a></li>
+                <li><a href="/contact"><i class="la la-hand-peace-o"></i>Contact</a></li>
+            </ul>
+            <div class="filter-box">
+            </div>
+            <div class="nav-footer text-center">
+                <a id="gitgub-link" title="You can get the open source code on Github" data-toggle="tooltip" data-html="true" target="_blank" href="https://github.com/nhduong29/boomerang-nhduong29"><i class="la la-github"></i></a>
+                <a id="payme-link" title="<b>Take me a beer.</b></br>The energy to make Boomerang better" data-toggle="tooltip" data-html="true" target="_blank" href="https://www.paypal.me/nhduong29"><i class="la la-beer"></i></a>
+            </div>
+        </nav>
+        <div id="content">
+            <div id="about">
+                <div class="logo text-center">
+                    <img src="boomerang.svg" alt="Boomerang" />
+                </div>
+                <h1><span>#1</span> Boomerang</h1>
+                <p>Boomerang is the service to build modern software for the API-first world.</p>
+                <p>Quick and easy mock RESTful API and SOAP webservices. Generate from API definitions provided by Sandbox,
+                    instant deploy, collaborative build, and debugging tools for integration</p>
+                <a class="btn btn-sm" target="_blank" href="https://github.com/nhduong29/boomerang-nhduong29">
+                    <i class="fab fa-github"></i> Get it free!
+                </a>
+                <h2>Quick start with video on Youtube: </h2>
+
+                <h1><span>#2</span> Framework we use to build.</h1>
+                <p>Make the Java and NodeJs work together</p>
+                <h2><span>#2.1</span> Sandbox API</h2>
+                <div class="image">
+                    <img src="../img/sandbox.png" />
+                </div>
+                <div class="text">
+                    <p>Sandbox is a platform to quickly and easily create or generate web service mocks, with instant deploy, collaborative build.</p>
+                </div>
+                <h2><span>#2.2</span> Frontail</h2>
+                <div class="image">
+                    <img src="../img/tail.png"  />
+                </div>
+                <div class="text">
+                    <p>Frontail is a height-weight Node.js application for streaming logs to the browser in the real-time. It's a tail -F with UI</p>
+                </div>
+
+                <h1><span>#3</span> Dependencies</h1>
+                <p> - Java 8 Update 72 or later - important! you actually might not have this.</p>
+                <p> - NodeJs is important! you actually might not have this. <a href="https://nodejs.org/en/download/" target="_blank">Download it here!</a> </p>
+                <p> - tail is the Unix command line to read the content of file.
+                    On <span class="highlight">WINDOWS</span> you must install manually the <span class="highlight"> tail package</span> for windows or use <span class="highlight">git bash</span> to run the command
+                </p>
+
+                <h1><span>#4</span> Usage</h1>
+                <p class="highlight">*** Please note that we run those commands below on the Unix platform. If you are using windows, please open the
+                    <a class="keyword" href="https://git-scm.com/downloads" target="_blank"> git bash</a> to run it</p>
+                <p>Go to root folder of Boomerang project:</p>
+                <code>$ cd boomerang_dcrab/sandbox-tail</code>
+                <p>Install all nodejs dependencies:</p>
+                <code>$ sudo npm install</code>
+                <p>Start the application in one line of code:</p>
+                <code>node index.js --port=9004 log/debug.log -s sandbox-lib -x 9003</code>
+                <p>Web interface runs on <a class="keyword" href="http://localhost:9004" target="_blank">http://localhost:9004</a></p>
+                <p>The API webservice run on <span class="keyword">http://localhost:9003</span></p>
+                <p>Now try to use Postman or create a GET request to this URL: <span class="highlight">http://localhost:9003/hello-world</span></p>
+                <p>Then open the web browser to see the amazing world : <a class="highlight" href="http://localhost:9004">http://localhost:9004</a> </p>
+                <h1><span>#5</span> Advance and Deeper</h1>
+                <p>If you want to know about the other configurations, structure and how to run this application as standalone application, please go to <a class="highlight" href="http://localhost:9004/advance">Advance Mode</a> </p>
+            </div>
+        </div>
+    </div>
+    <script src="/jquery.min.js"></script>
+    <script src="/vendor/popper.js"></script>
+    <script src="/bootstrap-v4/js/bootstrap.min.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script defer src="/vendor/solid.js"></script>
+    <script src="/vendor/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+
+.renderjson{
+  a {color: #f8f8f2;  text-decoration: none; }
+  .disclosure    { color: #f8f8f2; font-size: 150%; }
+  .syntax, .array.syntax { color: #fff; }
+  .string        { color: #f1fa8c; }
+  .number        { color: #bd93f9; }
+  .boolean       { color: #bd93f9; }
+  .key           { color: #8be9fd; }
+  .keyword       { color: #50fa7b; }
+  .object.syntax { color: #ff79c6; }
+
+}
+pre {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.btn-default {
+  color: $white;
+  background: $primary-color;
+  border: none;
+  padding: 16px 32px;
+  &:hover, &:active, &:focus {
+    color:$white;
+    background-color: $secondary-color;
+    border: none;
+  }
+}
+//override default css from js tree plugin
+.jstree-default {
+  .jstree-node{
+    &.jstree-leaf{
+      .jstree-icon{
+        display: none;
+      }
+    }
+  }
+
+
+  .jstree-anchor{
+    line-height: 40px;
+    height: 40px;
+    transition: 0.3s;
+    border-radius:2px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width: calc(100% - 35px);
+    color: $text-color-darker;
+    padding:  0 1rem;
+    font-size: 15px;
+    .fas{
+      line-height: 40px !important;
+    }
+  }
+
+  .jstree-hovered {
+    background-color: transparent;
+    font-style: italic;
+    color: $white;
+    padding: 0 18px;
+    border:none;
+    box-shadow:none;
+    border-radius: 2px;
+  }
+  .jstree-clicked{
+    background: #575a6b;
+    border:none;
+    color:  $white;
+    font-style:italic;
+    padding:  0 1rem;
+    box-shadow:none;
+    border-radius: 2px;
+  }
+  .jstree-icon {
+    width: 24px;
+    height: 35px;
+    line-height: 35px;
+    &:empty {
+      height: 35px;
+      line-height: 35px;
+    }
+  }
+  .jstree-rtl .jstree-node {
+    margin-right: 35px;
+  }
+  .jstree-wholerow {
+    height: 35px;
+  }
+
+  .jstree-open > .jstree-ocl {
+    background-position: -132px 4px;
+  }
+  .jstree-closed > .jstree-ocl {
+    background-position: -100px 4px;
+  }
+  .jstree-leaf > .jstree-ocl {
+    background-position: -68px 4px;
+  }
+}
+
+.CodeMirror, .CodeMirror-scroll{
+  height: 90vh;
+}
+.CodeMirror{
+  border-radius:0 0 10px 10px;
+  .CodeMirror-lines{
+    padding: 4px 0 32px 0;
+  }
+}
+.CodeMirror-scroll{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.CodeMirror-code {
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.CodeMirror-simplescroll-horizontal, .CodeMirror-simplescroll-vertical{
+  background: $hover-color;
+  div{
+    background-color: rgba(255,255,255,.2);
+    border: none;
+  }
+}
+.CodeMirror-scrollbar-filler{
+  background: none;
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width: 8px}
+
+.pln{color:$white;}
+.str{color:$info-color;}
+.kwd{ color:$info-color;}
+.com{color:$text-color}
+.typ{ color:$error-color;}
+.lit{color:$success-color;}
+.pun,.opn,.clo{color:$white;}
+.tag{color:$secondary-color; font-weight:bold;}
+.atn{color:$info-color;}
+.atv{ color:$success-color;}
+.dec,.var{color:$error-color;}
+.fun{ color:$success-color;}
+
+ol.linenums{margin-top:0;margin-bottom:0}
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8{list-style-type:none}
+li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}

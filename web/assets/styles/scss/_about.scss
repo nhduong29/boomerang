@@ -1,0 +1,54 @@
+#about{
+  color: $white;
+  width: 600px;
+  margin: 0 auto;
+  padding: 80px 0;
+  .logo{
+    img{
+      width: 200px;
+    }
+  }
+  .image{
+    img{
+      width: 100px;
+      padding: 8px;
+      background: $hover-color;
+      border-radius: 10px;
+      margin-bottom: 8px;
+    }
+  }
+  h1{
+    margin: 40px 0 24px 0;
+    font-size: 24px;
+    span{
+      color: $text-color-darker;
+    }
+  }
+  h2{
+    font-size: 18px;
+    padding:24px 0 8px 0;
+    margin-bottom: 8px;
+    border-bottom: 1px solid $primary-dark-color;
+    span{
+      color: $text-color-darker;
+    }
+  }
+  .btn-sm{
+    background: $primary-color;
+    color: $text-color;
+    &:hover{
+      background: $highlight;
+    }
+  }
+  p{
+    margin-bottom: 8px;
+  }
+  code{
+    display: block;
+    padding: 16px;
+    background: $primary-dark-color;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    color: $keyword;
+  }
+}

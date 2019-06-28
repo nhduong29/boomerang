@@ -1,0 +1,45 @@
+@import "variables";
+@import "third-party-override";
+
+a, a:hover, a:focus{
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.la{
+  font-size: 18px;
+}
+
+html{
+  font-size:15px;
+  body {
+    font-family: $font-family;
+    background: $bg;
+    .wrapper{
+      display: flex;
+      width: 100%;
+      .highlight{
+        color: $highlight;
+      }
+      .keyword{
+        color: $keyword;
+      }
+      @import "nav";
+      #content {
+        width: calc(100% - 280px);
+        height: 100vh;
+        transition: all 0.3s;
+        position: absolute;
+        top: 0;
+        right: 0;
+        @import "home";
+        @import "define-api";
+        @import "about";
+        @import "contact";
+        &.active {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

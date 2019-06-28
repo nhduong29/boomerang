@@ -1,0 +1,67 @@
+/* MENU BUTTON
+**************************************************/
+/* wrapper */
+.mockup-menu-button-wrapper {
+	position:fixed;
+    top:22px;
+    left: 23px;
+    z-index: 999999;
+	width:54px;
+	height:54px;
+	cursor:pointer;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	transition:all .3s ease;
+}
+/* button */
+.mockup-menu-button {
+	padding:12px 11px 10px 11px;
+
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	transition:all .3s ease;
+}
+/* menu bars */
+.mockup-menu-button:before,
+.mockup-menu-button:after,
+.mockup-menu-button div.mockup-menu-button-middle:before {
+	content:'';
+	display:block;
+	width:17px;
+	height:2px;
+	margin:4px 0;
+	background-color:$white;
+	-webkit-transition:all .25s ease;
+	-moz-transition:all .25s ease;
+	transition:all .25s ease;
+	outline:1px solid transparent;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.mockup-menu-button:after { width:10px; }
+/* menu bars hover */
+.mockup-menu-button-wrapper:hover .mockup-menu-button:before { width:10px; }
+.mockup-menu-button-wrapper:hover .mockup-menu-button:after { width:17px; }
+/* menu bars + hover (when menu active) */
+.mockup-menu-button-active:hover .mockup-menu-button:before,
+.mockup-menu-button-active:hover .mockup-menu-button:after { width:0; }
+/* top+bottom bar animations */
+.mockup-menu-button-active .mockup-menu-button:before,
+.mockup-menu-button-active .mockup-menu-button:after {
+	width:0;
+	opacity:.5;
+}
+
+.btn-twitter-b:hover{
+	color: #1da1f2;
+}
+
+.btn-facebook-b:hover{
+	color: #3b5999;
+}
+
+.btn-linkedin:hover{
+	color: #0077B5;
+}
+.btn-behance:hover{
+	color: #0057ff;
+}

@@ -1,33 +1,0 @@
-Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail' with 8 -> 200 worker(s)
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-Sandbox ready (build: v? runtime: VERSION_2) --  Running on port: 9003, metadata on port: disabled, reading from path: 'C:\Data\Dev\GitProjects\boomerang\sandbox-tail' with 8 -> 200 worker(s)
-Clearing routing table on JS file change
-Clearing routing table on JS file change
-
-domIDa82d8947-cbc1-4509-87fb-60b29a74c193log HTTP PUT /api/v6/banks/1/clients/31960/accounts/84685 
-domIDa82d8947-cbc1-4509-87fb-60b29a74c193log Request Headers: {Accept=*/*, Accept-Encoding=gzip, deflate, br, Accept-Language=en,de;q=0.9,en-US;q=0.8,vi;q=0.7, Cache-Control=no-cache, Connection=keep-alive, Content-Length=250, Content-Type=multipart/form-data; boundary=----WebKitFormBoundary7OBkGaKAIamx4eCd, Host=localhost:9003, Origin=chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop, Postman-Token=184576de-fbb6-fcde-ecf8-aa3c0d02c41e, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36}
- domIDa82d8947-cbc1-4509-87fb-60b29a74c193log Request Body: '------WebKitFormBoundary7OBkGaKAIamx4eCd Content-Disposition: form-data; name="type"  0 ------WebKitFormBoundary7OBkGaKAIamx4eCd Content-Disposition: form-data; name="externalNumber"  "69999999100" ------WebKitFormBoundary7OBkGaKAIamx4eCd-- '
-
-domIDa82d8947-cbc1-4509-87fb-60b29a74c193logReceived Timestamp:1520265530589
-domIDa82d8947-cbc1-4509-87fb-60b29a74c193log Response Status: 201 (took 0ms)
-domIDa82d8947-cbc1-4509-87fb-60b29a74c193log Response Headers: {Access-Control-Allow-Origin=chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop, Access-Control-Allow-Methods=GET,POST,PUT,DELETE,PATCH,OPTIONS, Access-Control-Allow-Credentials=true, Access-Control-Allow-Headers=Content-Type, Content-Type=application/json}
- domIDa82d8947-cbc1-4509-87fb-60b29a74c193log Response Body: '{   "category": 123456,   "id": "666.666.66.100" }'
